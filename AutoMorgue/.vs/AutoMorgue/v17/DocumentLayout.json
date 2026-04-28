@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +38,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormCars.cs",
+              "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormCars.cs",
+              "RelativeDocumentMoniker": "AutoMorgue\\FormCars.cs",
+              "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormCars.cs",
+              "RelativeToolTip": "AutoMorgue\\FormCars.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:38:22.577Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "FormCars.cs [Design]",
+              "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormCars.cs",
+              "RelativeDocumentMoniker": "AutoMorgue\\FormCars.cs",
+              "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormCars.cs [Design]",
+              "RelativeToolTip": "AutoMorgue\\FormCars.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:36:53.815Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\Model1.edmx",
+              "RelativeDocumentMoniker": "AutoMorgue\\Model1.edmx",
+              "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "AutoMorgue\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-04-28T08:30:44.826Z",
+              "IsPinned": true,
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\MainForm.cs",
+              "RelativeDocumentMoniker": "AutoMorgue\\MainForm.cs",
+              "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\MainForm.cs",
+              "RelativeToolTip": "AutoMorgue\\MainForm.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:27:35.906Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\MainForm.cs",
               "RelativeDocumentMoniker": "AutoMorgue\\MainForm.cs",
@@ -30,6 +104,36 @@
               "RelativeToolTip": "AutoMorgue\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T07:27:39.708Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAddCars.cs",
+              "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormAddCars.cs",
+              "RelativeDocumentMoniker": "AutoMorgue\\FormAddCars.cs",
+              "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormAddCars.cs",
+              "RelativeToolTip": "AutoMorgue\\FormAddCars.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwDAAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:01:25.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAddCars.cs [Design]",
+              "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormAddCars.cs",
+              "RelativeDocumentMoniker": "AutoMorgue\\FormAddCars.cs",
+              "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormAddCars.cs [Design]",
+              "RelativeToolTip": "AutoMorgue\\FormAddCars.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:55:01.295Z",
               "EditorCaption": " [Design]"
             }
           ]

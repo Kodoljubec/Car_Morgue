@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoMorgueModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Car">
+    <Key>
+      <PropertyRef Name="vinID" />
+    </Key>
+    <Property Name="vinID" Type="Int32" Nullable="false" />
+    <Property Name="Make" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Model" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Year" Type="Int32" />
+    <Property Name="engineID" Type="Int32" />
+    <NavigationProperty Name="Engine" Relationship="Self.FK__Cars__engineID__38996AB5" FromRole="Cars" ToRole="Engine" />
+    <NavigationProperty Name="Parts" Relationship="Self.FK__Parts__CarID__3B75D760" FromRole="Cars" ToRole="Parts" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="33" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sales__CustomerI__403A8C7D" FromRole="Clients" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Engine">
+    <Key>
+      <PropertyRef Name="EngineID" />
+    </Key>
+    <Property Name="EngineID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cubic_capacity" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Fuel" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cars" Relationship="Self.FK__Cars__engineID__38996AB5" FromRole="Engine" ToRole="Cars" />
+  </EntityType>
+  <EntityType Name="Part">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Part1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Category" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CarID" Type="Int32" />
+    <NavigationProperty Name="Car" Relationship="Self.FK__Parts__CarID__3B75D760" FromRole="Parts" ToRole="Cars" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sales__PartsID__412EB0B6" FromRole="Parts" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="SalesID" />
+    </Key>
+    <Property Name="SalesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="PartsID" Type="Int32" />
+    <NavigationProperty Name="Client" Relationship="Self.FK__Sales__CustomerI__403A8C7D" FromRole="Sales" ToRole="Clients" />
+    <NavigationProperty Name="Part" Relationship="Self.FK__Sales__PartsID__412EB0B6" FromRole="Sales" ToRole="Parts" />
+  </EntityType>
+  <Association Name="FK__Cars__engineID__38996AB5">
+    <End Role="Engine" Type="Self.Engine" Multiplicity="0..1" />
+    <End Role="Cars" Type="Self.Car" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Engine">
+        <PropertyRef Name="EngineID" />
+      </Principal>
+      <Dependent Role="Cars">
+        <PropertyRef Name="engineID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Parts__CarID__3B75D760">
+    <End Role="Cars" Type="Self.Car" Multiplicity="0..1" />
+    <End Role="Parts" Type="Self.Part" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cars">
+        <PropertyRef Name="vinID" />
+      </Principal>
+      <Dependent Role="Parts">
+        <PropertyRef Name="CarID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__CustomerI__403A8C7D">
+    <End Role="Clients" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__PartsID__412EB0B6">
+    <End Role="Parts" Type="Self.Part" Multiplicity="0..1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parts">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="PartsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AutoMorgueEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cars" EntityType="Self.Car" />
+    <EntitySet Name="Clients" EntityType="Self.Client" />
+    <EntitySet Name="Engines" EntityType="Self.Engine" />
+    <EntitySet Name="Parts" EntityType="Self.Part" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <AssociationSet Name="FK__Cars__engineID__38996AB5" Association="Self.FK__Cars__engineID__38996AB5">
+      <End Role="Engine" EntitySet="Engines" />
+      <End Role="Cars" EntitySet="Cars" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Parts__CarID__3B75D760" Association="Self.FK__Parts__CarID__3B75D760">
+      <End Role="Cars" EntitySet="Cars" />
+      <End Role="Parts" EntitySet="Parts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__CustomerI__403A8C7D" Association="Self.FK__Sales__CustomerI__403A8C7D">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__PartsID__412EB0B6" Association="Self.FK__Sales__PartsID__412EB0B6">
+      <End Role="Parts" EntitySet="Parts" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

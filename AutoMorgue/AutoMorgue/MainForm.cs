@@ -16,5 +16,31 @@ namespace AutoMorgue
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnCars_Click(object sender, EventArgs e)
+        {
+            FormCars formCars = new FormCars();
+            formCars.ShowDialog();
+        }
+
+        private void btnParts_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSales_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReference_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
