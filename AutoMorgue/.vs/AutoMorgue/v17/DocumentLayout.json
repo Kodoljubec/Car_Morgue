@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formaddcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\automorgue\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|d:\\12v\\finalproject\\car_morgue\\automorgue\\automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\formcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF50197F-F846-4A78-AF88-851CFD9ADC50}|AutoMorgue\\MainScreen.csproj|solutionrelative:automorgue\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "FormCars.cs",
               "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormCars.cs",
               "RelativeDocumentMoniker": "AutoMorgue\\FormCars.cs",
               "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormCars.cs",
               "RelativeToolTip": "AutoMorgue\\FormCars.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwCIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwv04AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T08:38:22.577Z",
               "IsPinned": true,
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FormCars.cs [Design]",
               "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormCars.cs",
               "RelativeDocumentMoniker": "AutoMorgue\\FormCars.cs",
@@ -88,7 +88,7 @@
               "RelativeDocumentMoniker": "AutoMorgue\\MainForm.cs",
               "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\MainForm.cs",
               "RelativeToolTip": "AutoMorgue\\MainForm.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA7wBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T08:27:35.906Z",
               "IsPinned": true,
@@ -96,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\MainForm.cs",
               "RelativeDocumentMoniker": "AutoMorgue\\MainForm.cs",
@@ -113,20 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormAddCars.cs",
               "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormAddCars.cs",
               "RelativeDocumentMoniker": "AutoMorgue\\FormAddCars.cs",
               "ToolTip": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormAddCars.cs",
               "RelativeToolTip": "AutoMorgue\\FormAddCars.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwDAAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T09:01:25.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FormAddCars.cs [Design]",
               "DocumentMoniker": "D:\\12v\\FinalProject\\Car_Morgue\\AutoMorgue\\AutoMorgue\\FormAddCars.cs",
               "RelativeDocumentMoniker": "AutoMorgue\\FormAddCars.cs",

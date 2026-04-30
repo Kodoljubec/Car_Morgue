@@ -32,7 +32,7 @@ namespace AutoMorgue
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            using (AutoMorgueEntities con = new AutoMorgueEntities())
+            using (var con = new AutoMorgueEntities())
             {
                 List<Car> cars = con.Cars.ToList();
                 Car car = new Car();
@@ -46,7 +46,11 @@ namespace AutoMorgue
                         break;
                     }
                 }
-                if (check) MessageBox.Show("VIN is already taken by another car!");
+                if (check) MessageBox.Show("VIN is already taken by another automobile!");
+                else
+                {
+                    
+                }
             }
         }
 

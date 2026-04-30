@@ -19,7 +19,38 @@ namespace AutoMorgue
 
         private void FormCars_Load(object sender, EventArgs e)
         {
-            using (AutoMorgueEntities con =  new AutoMorgueEntities())
+            LoadDataGridView();
+        }
+
+        private void btnAddCar_Click(object sender, EventArgs e)
+        {
+            FormAddCars formAddCars = new FormAddCars();
+            formAddCars.ShowDialog();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (txtVIN.Text == "" || txtMake.Text == "" || txtModel.Text == "" || txtYear.Text == "" || txtEngine.Text == "")
+                MessageBox.Show("One of the text fields is empty!");
+            else
+            {
+                using (var con = new AutoMorgueEntities())
+                {
+                    Car tempCar = new Car();
+                    tempCar.vinID = int.Parse(txtVIN.Text);
+                    tempCar.Make = txtMake.Text;
+                    tempCar.Model = txtModel.Text;
+                    tempCar.Year = int.Parse(txtYear.Text);
+                    tempCar.engineID = int.Parse(txtEngine.Text);
+                    con.Cars.Add(tempCar);
+                    con.SaveChanges();
+                }
+                LoadDataGridView();
+            }
+        }
+        private void LoadDataGridView()
+        {
+            using (var con = new AutoMorgueEntities())
             {
                 List<Car> cars = con.Cars.ToList();
                 DataGrid.DataSource = cars;
@@ -29,10 +60,32 @@ namespace AutoMorgue
             }
         }
 
-        private void btnAddCar_Click(object sender, EventArgs e)
+        private void btnDelete_Click(object sender, EventArgs e)
         {
-            FormAddCars formAddCars = new FormAddCars();
-            formAddCars.ShowDialog();
+            int tempVIN = int.Parse(DataGrid.CurrentRow.Cells["vinID"].Value.ToString());
+            using (var con = new AutoMorgueEntities())
+            {
+                var item = con.Cars.Find(tempVIN);
+                try
+                {
+                    if (MessageBox.Show("Are you sure you want to delete car?", "Car deletion", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                    {
+                        con.Cars.Remove(item);
+                        con.SaveChanges();
+                    }
+                }
+                catch { MessageBox.Show("Cannot delete the car!"); }
+            }
+            LoadDataGridView();
+        }
+
+        private void DataGrid_SelectionChanged(object sender, EventArgs e)
+        {
+            txtVIN.Text = (DataGrid.CurrentRow.Cells["vinID"].Value).ToString();
+            txtMake.Text = (DataGrid.CurrentRow.Cells["Make"].Value).ToString();
+            txtModel.Text = (DataGrid.CurrentRow.Cells["Model"].Value).ToString();
+            txtYear.Text = (DataGrid.CurrentRow.Cells["Year"].Value).ToString();
+            txtEngine.Text = (DataGrid.CurrentRow.Cells["EngineID"].Value).ToString();
         }
     }
 }
